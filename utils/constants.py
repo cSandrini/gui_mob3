@@ -1,0 +1,19 @@
+# utils/constants.py
+
+# Configurações da Janela
+APPEARANCE_MODE = "Dark"
+DEFAULT_COLOR_THEME = "blue"
+WINDOW_SIZE = "1200x950"
+
+# Comandos do Driver (Nativo, sem import)
+CMD_HANDSHAKE = bytes.fromhex("AE13070000E027")
+EXPECTED_HEX = "be13070000e47d"
+
+# Cores do Sistema
+COLOR_CONNECTED = "#4CD964"
+COLOR_DISCONNECTED = "#FF3B30"
+COLOR_WARNING = "#FFCC00"
+COLOR_DANGER = "#dc3545"
+COLOR_SUCCESS = "#28a745"
+COLOR_NEUTRAL = "#555555"
+COLOR_PRIMARY = "#3b8ed0"
